@@ -307,7 +307,7 @@ body{
 
 
 /* responsive  */
-@media screen and (max-width:941px) and (min-width:909px) {
+@media (max-width:950px) {
     .talk{
         display: none;
     }
@@ -364,7 +364,7 @@ body{
     }
     
 }
-/* @media screen and (max-width:412px) {
+@media screen and (max-width:836px) {
     .talk{
         display: none;
     }
@@ -423,4 +423,4 @@ body{
         margin-left: 70px;
     }
     
-} */
+}
