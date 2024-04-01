@@ -364,7 +364,7 @@ body{
     }
     
 }
-@media screen and (max-width:412px) {
+/* @media screen and (max-width:412px) {
     .talk{
         display: none;
     }
@@ -423,4 +423,4 @@ body{
         margin-left: 70px;
     }
     
-}
+} */
