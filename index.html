@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarik Belaid</title>
+    <!--                 link of CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--                 link of font-Awesome -->
+    <script src="https://kit.fontawesome.com/647f2e7e8b.js" crossorigin="anonymous"></script>
+    <!--                  link of AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="#Home"><span>TB</span> Belaid</a>
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#About">About me</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <a class="talk" href="#">let's talk</a>
+        <a class="menu" onclick=showNav() href="#"><i class="fa-solid fa-bars"></i></a>
+        <a class="cancel" onclick=hiddenNav() href="#"><i class="fa-solid fa-xmark"></i></a>
+    </header>
+    <nav class="sidebare">
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#About">About me</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="Home">
+        <div class="Home-img" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <img src="./Images/Mon_image.png" alt="">
+        </div>
+        <div class="Home-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+            <p>Hello, I'm</p>
+            <h1>Tarik Belaid</h1>
+            <div class="line">
+                <span class="line-special"></span>
+                <h3><span>Full Stack</span> java developer</h3>
+            </div>
+            <div class="btn-cv">
+                <a class="cv" href="#">Download Cv</a>
+                <a class="Project" href="#">View Project</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="About" id="About">
+        <p>Get To know more</p>
+        <h1>About Me</h1>
+        <div class="About-self">
+            <div class="about-img" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="500">
+                <img src="./Images/About.jpeg" alt="">
+            </div>
+            <div class="about-content" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="500">
+                <div class="child-1" >
+                    <div class="about-content-child test" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="800">
+                        <p class="experiences"><i class="fa-solid fa-user"></i></p>
+                        <h1>Experiences</h1>
+                        <p>2+ years </p>
+                        <p>Full stack</p>
+                    </div>
+                    <div class="about-content-child special" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="800">
+                        <p class="experiences"><i class="fa-solid fa-school"></i></p>
+                        <h1>Education</h1>
+                        <p>5 years</p>
+                        <p>ENSA Marrakesh</p>
+                    </div>
+                </div>
+                <div class="child-2">
+                    <p>my name is tarik belaid I am 21 years old, after obtaining my baccalaureate .I decided to
+                        continue my studies at ENSA Marrakesh in computer engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Experiences" id="Experiences" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
+        <p>Explore My</p>
+        <h1 class="badge-experiences">Experiences</h1>
+        <div class="Experiences-content">
+            <div class="content-exepr">
+                <h1>Frontend development</h1>
+                <div class="exeper1">
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>Angular</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-exepr">
+                <h1>Backend development</h1>
+                <div class="exeper1">
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>java standard edition</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>Spring</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>Springboot</span>
+                    </div>
+                    <div class="html">
+                        <img src="./Images/badge-check.svg" alt="">
+                        <span>Git</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
